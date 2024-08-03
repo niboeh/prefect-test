@@ -309,7 +309,7 @@ if __name__ == "__main__":
                                 interval=600)
     """
     audio_processing_flow.from_source(
-        source="C:/heobin/jupyter-workspace/MLOps/mlflow",
+        source="https://github.com/niboeh/prefect-test.git",
         entrypoint="prefect_test.py:audio_processing_flow"
         ).deploy(
         name="test-deployment",
